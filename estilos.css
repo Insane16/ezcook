@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+}
+header{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color: moccasin;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: moccasin;
+}
+
+/*Esto es el gif de la portada*/
+.portada{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+}
+
+.port{
+    height: 100%;
+    width: 50%;
+    border: 15px solid;
+}
+
+.menu{
+    text-align: center;
+    font-size: 50px;
+    font-family: papyrus;
+    float: center;
+}
+nav{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    font-family: cursive;
+    background-color: orange;
+}
+.logo{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.btnform{
+    color: white;
+    height: 40px;
+    width: 110px;
+    font-size: 20px;
+    background-color: black;
+    margin: 55px 20px 0 0;
+    padding: 4px;
+    text-decoration: none;
+    text-align: left;
+    float: right;
+    list-style-type: none;
+}
+.buscar{
+    margin: 60px 20px 0 0;
+    height: 30px;
+    width: 175px;
+    padding: 4px;
+    text-decoration: none;
+    text-align: left;
+    float: right;
+    list-style-type: none;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+}
+nav ul li a{
+    display: block;
+    width: 120px;
+    min-width: 100px;
+    padding: 4px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    background-color: orange;
+}
+
+
+
+
+/*SUBMENUUUUUUS*/
+nav ul li a:hover{
+    display: block;
+    color: orange;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav li ul a{
+    border-right: none;
+}
+
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+nav li:hover>ul{
+    margin-top: 0px;
+    display: grid;
+    z-index: 100;
+    text-align: left;
+}
+nav li ul li{
+    position: relative;
+}
+/*Lo de arriba (submenus)*/
+
+body section.row{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    border: 1px solid;
+    margin: 0 auto;
+    word-wrap: break-word;
+    overflow: hidden;
+    gap: 40px;
+    align-items: center;
+}
+
+.subtitulo1{
+    width: 200px;
+    height: auto;
+    font-family: papyrus;
+    text-align: center;
+    background-color: orangered;
+    margin-left: 20px;
+    color: white;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.subtitulo2{
+    width: 250px;
+    height: auto;
+    font-family: papyrus;
+    text-align: center;
+    background-color: orangered;
+    margin-left: 20px;
+    color: white;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+/*RECETAAAASSSSSSSS*/
+.rece{
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    border: 5px double;
+    border-radius: 5%;
+}
+.minititle{
+    margin-left: 30px;
+}
+
+.content-recetas{
+    width: 90px;
+    height: auto;
+    margin-left: 13px;
+    float: left;
+    background-color: moccasin;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.icono-receta{
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.pregfrec{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.preg{
+    font-size: 20px;
+    width: 450px;
+    height: auto;
+    float: left;
+    margin-left: 100px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.pregunta{
+    text-align: justify;
+    color: orangered;
+    font-size: 25px;
+    font-family: papyrus;
+}
+.pregtitle{
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: papyrus;
+}
+.suscripcion{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+.sustitle h1{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.reg{
+    width: 500px;
+    margin: 0 auto;
+    height: 20px;
+}
+.btnreg{
+
+    font-size: 20px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border: 0;
+}
+.regi{
+    margin: 0 auto;
+}
+footer{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.foot{
+    float: left;
+    margin: 0 auto;
+    width: 24%;
+    text-align: center;
+}
+.foot h3{
+    font-size: 20px;
+}
+.foot h1{
+    font-size: 20px;
+    margin-top: 14px;
+}
+.foot ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.foot ul li{
+    margin: 0 auto;
+    padding: 0;
+}
+.foot ul li a{
+    display: block;
+    width: auto;
+    padding: 4px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+}
+.foot .logo{
+    float: none;
+}
+/*CONTACTANOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS*/
+.forms{
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+    height: auto;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+form{
+    width: 70%;
+    float: left;
+}
+form h1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: Papyrus;
+    text-align: center;
+}
+form .row{
+    margin-top: 20px;
+}
+form button{
+    margin-top: 20px;
+}
+.imagen_contactanos img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 24%;
+    height: 300px;
+    float: right;
+    border: 5px double;
+}
+/*PARTE DE LA PAGINA DONDE ESTAN LAS RECETAS*/
+
+.receta-container{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.receta-box{
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: moccasin;
+    border: 2px solid;
+    border-radius: 5%;
+    text-align: center;
+    font-family: PAPYRUS;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.receta-box h3{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/*QUIENES SOMOOOOOOSSSSSSSSSSSSSSSSSSSS*/
+.misvis{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.col p{
+    font-family: Papyrus;
+    text-align: justify;
+    float: left;
+    font-size: 20px;
+}
+.col span{
+    font-size: 40px;
+    font-family: Papyrus;
+}
+.img-fluid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
